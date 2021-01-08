@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="3" hostname="HASEE-PC" name="suites.TestSuite" skipped="0" tests="5" time="74.518" timestamp="2019-08-04T04:04:24">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="start.time" value="08/04/2019 09:34 AM" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="test.reportsDir" value="D:\Workspace\HandlingAutomationPack\Report" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+    <property name="ws.home" value="D:\Workspace\HandlingAutomationPack" />
+    <property name="env.COMPUTERNAME" value="HASEE-PC" />
+    <property name="TODAY" value="August 4 2019" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\core java\Ant" />
+    <property name="java.runtime.version" value="1.8.0_151-b12" />
+    <property name="env.HOMEPATH" value="\Users\HASEE" />
+    <property name="test.classpath" value="D:\Workspace\HandlingAutomationPack\src\lib\byte-buddy-1.8.15.jar:D:\Workspace\HandlingAutomationPack\src\lib\client-combined-3.141.59-sources.jar:D:\Workspace\HandlingAutomationPack\src\lib\client-combined-3.141.59.jar:D:\Workspace\HandlingAutomationPack\src\lib\commons-exec-1.3.jar:D:\Workspace\HandlingAutomationPack\src\lib\dom4j-1.6.1.jar:D:\Workspace\HandlingAutomationPack\src\lib\guava-25.0-jre.jar:D:\Workspace\HandlingAutomationPack\src\lib\junit.jar:D:\Workspace\HandlingAutomationPack\src\lib\okhttp-3.11.0.jar:D:\Workspace\HandlingAutomationPack\src\lib\okio-1.14.0.jar:D:\Workspace\HandlingAutomationPack\src\lib\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Workspace\HandlingAutomationPack\src\lib\poi-3.6.jar:D:\Workspace\HandlingAutomationPack\src\lib\poi-ooxml-3.6.jar:D:\Workspace\HandlingAutomationPack\src\lib\poi-ooxml-schemas-3.6.jar:D:\Workspace\HandlingAutomationPack\src\lib\xmlbeans-2.3.0.jar" />
+    <property name="user.name" value="HASEE" />
+    <property name="ant.file.type.Handling Junit Report" value="file" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+    <property name="ant.project.default-target" value="usage" />
+    <property name="ant.project.name" value="Handling Junit Report" />
+    <property name="DSTAMP" value="20190804" />
+    <property name="java.version" value="1.8.0_151" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 42 Stepping 7, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\HASEE\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_151\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\VisualSVN Server\PowerShellModules" />
+    <property name="env.ANDROID_HOME" value="C:\Users\HASEE\AppData\Local\Android\sdk" />
+    <property name="env.APPDATA" value="C:\Users\HASEE\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\Workspace\HandlingAutomationPack\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.151-b12" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\HASEE" />
+    <property name="ant.library.dir" value="D:\core java\Ant\lib" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_151" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\HASEE\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\HASEE" />
+    <property name="test.dest" value="D:\Workspace\HandlingAutomationPack/build" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;D:\core java\Ant\bin;C:\Program Files\nodejs\;C:\Users\HASEE\Downloads\andriod-sdk\platform-tools;D:\core java\ProcessAutomation\apache-maven-3.6.1\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\HASEE\AppData\Roaming\npm;." />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.14 compiled on March 12 2019" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner suites.TestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Workspace\HandlingAutomationPack\Report\TEST-suites.TestSuite.xml crashfile=D:\Workspace\HandlingAutomationPack\junitvmwatcher1020157552686072433.properties propsfile=D:\Workspace\HandlingAutomationPack\junit8515191744598214699.properties" />
+    <property name="java.class.path" value="D:\Workspace\HandlingAutomationPack\build;D:\Workspace\HandlingAutomationPack\src\lib\byte-buddy-1.8.15.jar;D:\Workspace\HandlingAutomationPack\src\lib\client-combined-3.141.59-sources.jar;D:\Workspace\HandlingAutomationPack\src\lib\client-combined-3.141.59.jar;D:\Workspace\HandlingAutomationPack\src\lib\commons-exec-1.3.jar;D:\Workspace\HandlingAutomationPack\src\lib\dom4j-1.6.1.jar;D:\Workspace\HandlingAutomationPack\src\lib\guava-25.0-jre.jar;D:\Workspace\HandlingAutomationPack\src\lib\junit.jar;D:\Workspace\HandlingAutomationPack\src\lib\okhttp-3.11.0.jar;D:\Workspace\HandlingAutomationPack\src\lib\okio-1.14.0.jar;D:\Workspace\HandlingAutomationPack\src\lib\org.hamcrest.core_1.3.0.v201303031735.jar;D:\Workspace\HandlingAutomationPack\src\lib\poi-3.6.jar;D:\Workspace\HandlingAutomationPack\src\lib\poi-ooxml-3.6.jar;D:\Workspace\HandlingAutomationPack\src\lib\poi-ooxml-schemas-3.6.jar;D:\Workspace\HandlingAutomationPack\src\lib\xmlbeans-2.3.0.jar;D:\core java\Ant\lib\ant-launcher.jar;D:\core java\Ant\lib\ant.jar;D:\core java\Ant\lib\ant-junit.jar;D:\core java\Ant\lib\ant-junit4.jar" />
+    <property name="TSTAMP" value="0934" />
+    <property name="ws.jars" value="D:\Workspace\HandlingAutomationPack/src/lib" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\HASEE-PC" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="D:\core java\Ant" />
+    <property name="env.PROCESSOR_REVISION" value="2a07" />
+    <property name="java.io.tmpdir" value="C:\Users\HASEE\AppData\Local\Temp\" />
+    <property name="test.src" value="D:\Workspace\HandlingAutomationPack/src" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="x86" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" clean compile run" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.=D:" value="D:\Workspace\HandlingAutomationPack" />
+    <property name="user.dir" value="D:\Workspace\HandlingAutomationPack" />
+    <property name="env.MAVEN_HOME" value="D:\core java\ProcessAutomation\apache-maven-3.6.1" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\HASEE\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="ANT" value="D:\core java\Ant/bin/ant.bat" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;D:\core java\Ant\bin;C:\Program Files\nodejs\;C:\Users\HASEE\Downloads\andriod-sdk\platform-tools;D:\core java\ProcessAutomation\apache-maven-3.6.1\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\HASEE\AppData\Roaming\npm" />
+    <property name="basedir" value="D:\Workspace\HandlingAutomationPack" />
+    <property name="env.VISUALSVN_SERVER" value="C:\Program Files\VisualSVN Server\" />
+    <property name="ant.file.Handling Junit Report" value="D:\Workspace\HandlingAutomationPack\build.xml" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="D:\core java\Ant\lib\ant.jar" />
+    <property name="env.USERNAME" value="HASEE" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="env.USERDOMAIN" value="HASEE-PC" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="clean,compile,run" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="suites.LoginTest" name="loginTestWithInVaildCredential[0]" time="0.068">
+    <error message="wrong number of arguments" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: wrong number of arguments
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+</error>
+  </testcase>
+  <testcase classname="suites.LoginTest" name="loginTestWithInVaildCredential[1]" time="0.001">
+    <error message="wrong number of arguments" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: wrong number of arguments
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+</error>
+  </testcase>
+  <testcase classname="suites.LoginTestCase" name="loginTest[0]" time="53.362">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at suites.LoginTestCase.loginTest(LoginTestCase.java:49)
+</failure>
+  </testcase>
+  <testcase classname="suites.LoginTestCase" name="loginTest[1]" time="20.731">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at suites.LoginTestCase.loginTest(LoginTestCase.java:53)
+</failure>
+  </testcase>
+  <testcase classname="suites.RegistrationTestCase" name="loginTestWithVaildCredential" time="0.001">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at suites.RegistrationTestCase.doInit(RegistrationTestCase.java:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 23618
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1564891494.210][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1564891494.893][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1564891497.144][WARNING]: Timed out connecting to Chrome, retrying...
+Aug 04, 2019 9:35:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Not Landed succesffuly on the Home page with valid credential
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 21989
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1564891527.383][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+Aug 04, 2019 9:35:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Landed on the Home page with invalid credential
+]]></system-err>
+</testsuite>
